@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "github>smg-automotive/renovate-config",
+    "github>smg-automotive/renovate-config:web"
+  ]
+}
