@@ -24,7 +24,7 @@
     "@types/react": "18.2.0",
     "@types/testing-library__jest-dom": "5.14.5",
     "dd-trace": "3.18.0",
-    "next": "13.2.4",
+    "next": "13.5.4",
     "next-logger": "3.0.2",
     "pino": "8.11.0",
     "react": "18.2.0",
