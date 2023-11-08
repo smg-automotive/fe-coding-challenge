@@ -8,7 +8,7 @@ const Script = (
   props: DetailedHTMLProps<
     ScriptHTMLAttributes<HTMLScriptElement>,
     HTMLScriptElement
-  >
+  >,
 ) => {
   return <script {...props} />;
 };

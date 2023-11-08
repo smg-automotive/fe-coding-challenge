@@ -39,7 +39,7 @@ const Parameters: FC<Props> = ({ parameters }) => (
             {parameters.map(
               (
                 { name, parameterType, type, description, required = false },
-                index
+                index,
               ) => (
                 <Tr key={`${name}-${index}`}>
                   <Td>
@@ -65,7 +65,7 @@ const Parameters: FC<Props> = ({ parameters }) => (
                   </Td>
                   <Td>{description}</Td>
                 </Tr>
-              )
+              ),
             )}
           </Tbody>
         </Table>

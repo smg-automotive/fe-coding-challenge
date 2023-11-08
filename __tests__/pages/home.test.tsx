@@ -8,7 +8,7 @@ describe('DummyComponent', () => {
     render(<Home />);
 
     expect(
-      screen.getByText('👋 SMG Automotive frontend coding challenge')
+      screen.getByText('👋 SMG Automotive frontend coding challenge'),
     ).toBeInTheDocument();
   });
 });
