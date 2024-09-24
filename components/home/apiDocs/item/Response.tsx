@@ -42,14 +42,14 @@ const Responses: FC<Props> = ({ path, verb, body, query, responses }) => (
       p="sm"
       whiteSpace="pre"
     >
-      curl -X &apos;{verb}&apos; \ <br />
+      curl -X &apos;{verb}&apos; \<br />
       {'  '}&apos;{host}
       {path}
-      {query}&apos; \ <br />
+      {query}&apos; \<br />
       {'  '}-H &apos;accept: */*&apos;
       {body && (
         <>
-          <br />
+          \<br />
           {'  '}-H &apos;Content-Type: application/json&apos; \
           <br />
           {'  '}-d &apos;{JSON.stringify(body, null, 2)}&apos;
