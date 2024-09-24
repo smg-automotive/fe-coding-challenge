@@ -18,7 +18,7 @@
     "postinstall": "components copy-fonts --path=public"
   },
   "dependencies": {
-    "@smg-automotive/components": "20.21.4",
+    "@smg-automotive/components": "22.36.1",
     "@types/jest": "29.5.13",
     "@types/node": "20.9.0",
     "@types/react": "18.3.8",
