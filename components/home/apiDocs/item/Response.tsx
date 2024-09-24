@@ -11,7 +11,7 @@ import {
   Thead,
   Tr,
 } from '@smg-automotive/components';
-import { useClipboard } from '@chakra-ui/react'
+import { useClipboard } from '@chakra-ui/react';
 
 type Verb = 'GET' | 'POST';
 
@@ -36,12 +36,16 @@ const Responses: FC<Props> = ({ path, verb, body, query, responses }) => {
   const curl = `
 curl -X '${verb}' \\
   '${host}${path}${query ? query : ''}' \\
-  -H 'accept: */*'${body ? `\\
+  -H 'accept: */*'${
+    body
+      ? `\\
   -H 'Content-Type: application/json' \\
   -d '${JSON.stringify(body, null, 2)}'
-` : ''}`
+`
+      : ''
+  }`;
 
-  const { onCopy, hasCopied } = useClipboard(curl)
+  const { onCopy, hasCopied } = useClipboard(curl);
 
   return (
     <Stack spacing="md">
@@ -57,7 +61,16 @@ curl -X '${verb}' \\
         position="relative"
       >
         {curl}
-        <Button onClick={onCopy} variant="secondary" size="md" position="absolute" top="sm" right="sm">{hasCopied ? 'Copied!' : 'Copy'}</Button>
+        <Button
+          onClick={onCopy}
+          variant="secondary"
+          size="md"
+          position="absolute"
+          top="sm"
+          right="sm"
+        >
+          {hasCopied ? 'Copied!' : 'Copy'}
+        </Button>
       </Box>
       <Box textStyle="heading4">Request URL</Box>
       <Box as="code" bg="black" rounded="sm" color="white" p="sm">
