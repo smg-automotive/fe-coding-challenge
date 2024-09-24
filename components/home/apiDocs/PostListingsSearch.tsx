@@ -21,8 +21,8 @@ const body = {
   query: {
     makeModelVersions: [
       {
-        makeKey: 'string',
-        modelKey: 'string',
+        makeKey: 'vw',
+        modelKey: 'golf',
       },
     ],
   },
