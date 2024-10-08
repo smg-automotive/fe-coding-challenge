@@ -20,7 +20,7 @@
   "dependencies": {
     "@smg-automotive/components": "22.36.1",
     "@types/jest": "29.5.13",
-    "@types/node": "20.16.6",
+    "@types/node": "20.16.11",
     "@types/react": "18.3.8",
     "@types/react-dom": "18.3.0",
     "dd-trace": "5.22.0",
