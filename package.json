@@ -21,7 +21,7 @@
     "@smg-automotive/components": "23.0.3",
     "@types/jest": "29.5.13",
     "@types/node": "20.16.11",
-    "@types/react": "18.3.8",
+    "@types/react": "18.3.11",
     "@types/react-dom": "18.3.0",
     "dd-trace": "5.22.0",
     "next": "14.2.15",
