@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "2.8.2",
-    "@smg-automotive/components": "23.0.6",
+    "@smg-automotive/components": "23.44.7",
     "@types/jest": "29.5.13",
     "@types/node": "20.16.11",
     "@types/react": "18.3.11",
