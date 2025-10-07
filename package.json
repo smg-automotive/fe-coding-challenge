@@ -6,7 +6,7 @@
     "dev": "nodemon --watch next.config.js --exec next dev",
     "build": "CONFIG_ENV=build next build",
     "start": "NODE_OPTIONS='-r next-logger' next start",
-    "lint": "eslint --ext ts,js,tsx,jsx .",
+    "lint": "eslint .",
     "format": "npm run lint -- --fix",
     "test": "jest",
     "test:watch": "jest --watch",
