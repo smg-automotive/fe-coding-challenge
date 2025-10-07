@@ -42,7 +42,7 @@ You don't need to read all of these, but they might be helpful if you'd like to 
 
 - [React](https://react.dev/) - a JavaScript library for building user interfaces
 - [Next.js](https://nextjs.org/docs) - a React framework that we're using
-- [Chakra-ui](https://chakra-ui.com/) - a components library that we use under the hood
+- [Chakra-ui](https://v2.chakra-ui.com/) - a components library that we use under the hood
 - [Components package](https://main-components-pkg.branch.autoscout24.dev/) - storybook documentation of our components library
 - [Jest](https://jestjs.io/docs/en/getting-started) - a JavaScript testing framework
 - [Cypress](https://docs.cypress.io/) - an end to end testing framework
