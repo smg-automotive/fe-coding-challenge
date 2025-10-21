@@ -33,7 +33,7 @@
     "typescript": "5.9.3"
   },
   "devDependencies": {
-    "@smg-automotive/eslint-config": "5.1.12",
+    "@smg-automotive/eslint-config": "5.2.0",
     "@testing-library/cypress": "10.1.0",
     "@testing-library/dom": "10.4.1",
     "@testing-library/jest-dom": "6.9.1",
