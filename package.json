@@ -30,7 +30,7 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "swr": "2.4.1",
-    "typescript": "5.9.3"
+    "typescript": "6.0.2"
   },
   "devDependencies": {
     "@smg-automotive/eslint-config": "5.3.5",
